@@ -24,7 +24,21 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript repository.
+
+### CHALLENGE
+
+We would like you to build a small web application to test your knowledge.
+
+The server should take care of pulling the data into the database and expose an API for the Angular client.
+
+### SERVER COMPONENT
+
+Once an hour, the server app should connect to this API which shows recently posted articles about Node.js on Hacker News:
+
+http://hn.algolia.com/api/v1/search_by_date?query=nodejs
+
+The server app should insert the data from the API into a MongoDB database and also define a REST API which the client will use to retrieve the data.
 
 ## Installation
 
@@ -61,12 +75,6 @@ $ npm run test:cov
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
